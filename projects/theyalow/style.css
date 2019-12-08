@@ -1,0 +1,1503 @@
+
+.wrapper {
+  padding: 100px 0;
+  background-image: url(images/background.png);
+  background-size: 100%;
+  height: 390px;
+ }
+
+.size-context {
+  width: 1020px;
+  margin: auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;  
+}
+
+.logo {
+  width: 350px;
+  display: contents;
+}
+
+.top-image-header {
+  background-image: url(images/headerlogotop.svg);
+  width: 83px;
+  height: 83px;
+  border-radius: 13px;
+  z-index: 5;
+ }
+
+ .bottom-image-header {
+  background-image: url(images/headerlogo.png);
+  margin-top: -80px;
+  margin-left: 3px;
+  width: 79px;
+  height: 79px;
+  opacity: 0.5;
+  z-index: 3;
+ }
+  
+.text-header {
+  margin: 24px 0 0 36px;
+  font-size: 41px;
+  margin-top: -56px;
+  margin-left: 100px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-style: italic;
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.navbar__inner {
+  list-style-type: none;
+}
+
+.logo__text {
+  display: block;
+  padding-top: 10px;
+  padding-left: 4px;
+  font-style: italic;
+  font-size: 41px;
+  font-family: "Lucida Sans", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.logo img {
+  width: 21px;
+  height: 19px;
+}
+
+.navbar {
+  margin-top: 42px;
+}
+
+.navbar__button {
+  padding-left: 10px;
+  background-color: #f5c506;
+  border-right: 1px solid #b99403;
+  box-shadow: -10px -10px 0 rgba(245, 197, 6, 0.27), -5px -5px 0 rgba(245, 197, 6, 0.27);
+}
+
+.navbar__button:hover {
+  z-index: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: rgba(240, 255, 0, 1);
+  box-shadow: -10px -14px 0 rgba(240, 255, 0, 0.37), -5px -7px 0 rgba(240, 255, 0, 0.37);
+}
+
+.navbar_button_transparent-border {
+  border-right-color: transparent;
+}
+
+.navbar_button_margin-right {
+  margin-right: 5px;
+  padding-left: 11px;
+}
+
+.navbar__text {
+  padding-left: 3px;
+  font-size: 17px;
+  line-height: 2.4;
+  font-family: "Segoe WP", sans-serif;
+  text-align: center;
+  color: #b99403;
+  letter-spacing: 0;
+}
+
+.navbar__text_about-us-padding {
+  padding-left: 6px;
+}
+
+.navbar__button_about-us-padding {
+  padding: 0 29px 0 21px;
+}
+
+.navbar__button_services-padding {
+  padding: 0 21px 0 15px;
+}
+
+.navbar__button_contact-padding {
+  padding: 0 22px 0 16px;
+}
+
+.navbar ul li a{
+  font-size: 17px;
+  letter-spacing: 0px;
+  border-spacing: 0;
+  color: #9b7d08;
+  font-family: "Segoe WP";
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  border-spacing: 0;
+  background-image: url(images/Abaut.png);
+  width: 21px;
+  height: 19px;
+  z-index: 20;
+}
+
+.service {
+  width: 21px;
+  height: 20px;
+  z-index: 20;
+}
+
+.contact {
+  width: 26px;
+  height: 19px;
+  z-index: 20;
+}
+
+.carousel {
+  display: flex;
+  margin: auto;
+  width: 1300px;
+  height: 320px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-controls {
+  position: absolute;
+  box-sizing: border-box;
+  width: 32px;
+  height: 56px;
+  padding-top: 19px;
+  padding-left: 8px;
+  background-color: #c7a60d;
+}
+
+.context {
+  display: flex;
+  position: relative;
+  background-size: 100%;
+  align-items: flex-start;
+}
+
+.video-poster {
+  width: 745px;
+}
+
+.video,
+.navigation {
+  position: absolute;
+  left: 385px;
+  top: 127px;
+}
+
+.button-center {
+  display: block;
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #f5c506;
+  opacity: 0.71;
+}
+
+.image-play {
+  margin-left: 26px;
+  margin-top: 16px;
+}
+
+.button-center a {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  background-color: #f5c506;
+}
+
+.bottom-row {
+  top: 100px;
+  left: 10px;
+}
+
+.button-play {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 286px;
+  left: 165px;
+  border: 0;
+  background-color: #f5c506;
+  z-index: 3;
+}
+
+.play {
+  margin-left: 9px;
+  margin-top: 5px;
+}
+
+.play-time {
+  position: absolute;
+  top: 276px;
+  left: 212px;
+}
+
+.scroll-bar {
+  position: absolute;
+  top: 287px;
+  left: 210px;
+}
+
+.sound {
+  position: absolute;
+  top: 286px;
+  left: 634px;
+}
+
+.text-carousel {
+  font-size: 63px;
+  white-space: nowrap;
+  margin-right: 123px;
+  letter-spacing: 1px;
+  color: #f5c506;
+  font-family: "Asap";
+  font-weight: 400;
+  text-align: center;
+  min-height: 10em;
+  position: relative;
+  margin-top: auto;
+}
+
+.text-carousel p {
+  transform: translate(0, 140%);
+  
+}
+
+.carousel-controls2 {
+  top: 302px;
+  right: 321px;
+  box-sizing: border-box;
+  width: 32px;
+  height: 56px;
+  padding-top: 19px;
+  padding-left: 11px;
+  background-color: #c7a60d;
+  cursor: pointer;
+ }
+
+.offers-section {
+  padding: 100px 0;
+  background-image: url(images/OffersFon.png);
+  padding: 100px 0;
+  background-size: 100%;
+}
+
+.offers-section div {
+  display: flex;
+  width: 1020px;
+  margin: auto;
+  position: relative;
+  margin-bottom: inherit;
+  justify-content: space-around;
+}
+
+.offers-section-all {
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.offers-section div a {
+  display: grid;
+  font-size: 27px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 5%;
+  justify-items: center;
+}
+
+.offers-section div a img {
+  margin-bottom: 18px;
+}
+
+.wrapper-context {
+  background-image: url(images/BackgroundContext.png);
+  background-repeat: round;
+  background-size: 100%;
+  padding: 100px 0;
+}
+
+.wrapper-context-size {
+  width: 1020px;
+  margin: auto;
+  position: relative;
+}
+
+.heading {
+  width: 750px;
+  height: 78px;
+  font-size: 37px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-weight: 400;
+  margin-top: -23px;
+}
+
+.block-text div p {
+  background-image: url(images/BackgroundText.png);
+  display: inline-block;
+  width: 305px;
+  height: 220px;
+}
+
+.block-text {
+  width: 279px;
+  height: 200px;
+  padding: 22px;
+  font-size: 29px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  background-clip: border-box;
+  background-color: #ec9e03;
+  display: inline-block;
+}
+
+.image-plus {
+  position: absolute;
+  top: 275px;
+  left: 297px;
+}
+
+.video-film-poster {
+  display: inline;
+  height: 244px;
+  width: auto;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -36px;
+}
+
+.button-center-info {
+  position: absolute;
+  top: 171px;
+  left: 459px;
+  width: 67px;
+  height: 67px;
+  border: 0;
+  border-radius: 50%;
+  border: 0;
+  background-color: #f5c506;
+  opacity: 0.71;
+}
+
+.image-play-info {
+  position: absolute;
+  top: 17px;
+  left: 27px;
+}
+
+.background-twitter {
+  position: absolute;
+  top: 78px;
+  left: 711px;
+  width: 276px;
+  height: 200px;
+  padding: 22px;
+  font-size: 29px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  background-clip: border-box;
+  background-color: #ec9e03;
+  margin-left: -12px;
+}
+
+.image-twitter {
+  display: inline-block;
+  width: 163px;
+  height: 133px;
+  position: absolute;
+  top: 58px;
+  left: 86px;
+}
+
+.number {
+  float: inline-end;
+  top: 10px;
+  margin-top: -13px;
+  margin-left: -15px;
+}
+
+.image-plus-twitter {
+  position: absolute;
+  top: 197px;
+  left: 295px;
+}
+
+.data {
+  width: 113px;
+  height: 85px;
+  background-color: #ddb101
+}
+
+.day-number {
+  font-size: 51px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.month {
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #b26529;
+  font-family: "Segoe UI";  
+  text-align: center;
+  margin-top: -2px;
+  padding-bottom: 8px;
+}
+
+.context-scroll-bar {
+  position: absolute;
+  top: 467px;
+  margin-left: 69px;
+}
+
+.context-scroll-slider {
+  position: absolute;
+  top: 467px;
+  margin-left: 299px;
+}
+
+.context-information {
+  background-image: url(images/BackgroundInfo.png);
+  background-repeat: round;
+  background-size: 100%;
+  padding: 100px 0;
+}
+
+.size-context-information {
+  width: 1020px;
+  margin: auto;
+  position: relative;
+  padding-top: 47px;
+}
+
+.invitation {
+  text-decoration: none;
+  position: absolute;
+  width: 116px;
+  height: 116px;
+  border-radius: 58px;
+  background-color: #f5c506;
+  text-decoration: none;
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+}
+
+.images-cascade a {
+  text-decoration: none;
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+  top: 100px;
+}
+
+.images-cascade a p {
+  position: absolute;
+  top: 48px;
+  left: 5px;
+}
+
+.information-heading {
+  width: 1020px;
+  height: 36px;
+  font-size: 43px;
+  letter-spacing: 0px;
+  color: #f5c506;
+  font-family: "PT Sans";
+  font-weight: 400;
+  text-align: center;
+}
+
+.image-cascade {
+  padding-bottom: 105px;
+}
+
+.image-PC {
+  padding-top: 58px;
+  padding-right: 24px;
+  padding-left: 19px;
+}
+
+.image-table {
+  padding-right: 24px;
+  padding-bottom: 40px;
+}
+
+.image-mobile {
+  padding-bottom: 40px;
+  padding-right: 110px;
+}
+
+.list-text {
+  list-style-image: url(images/DiskList.png);
+  display: inline-block;
+ }
+
+.list-text li {
+  width: 334px;
+  height: 45px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #a9a9a7;
+  font-family: "Open Sans";
+  font-weight: 400;
+  -moz-hyphens: auto;
+  padding-top: 12px;
+}
+
+.size-context-footer {
+  width: 1020px;
+  margin: auto;
+  position: relative;
+}
+
+.footer {
+  padding: 100px 0;
+  background-size: 100%;
+  background-color: #4c4c4c;
+  height:64px;
+  box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+}
+
+.size-context-footer {
+  width: 1020px;
+  margin: auto;
+  position: relative;
+}
+
+.top-logo-footer {
+  background-image: url(images/footerlogotop.png);
+  width: 54px;
+  height: 54px;
+  border-radius: 9px;
+  z-index: 5;
+ }
+
+ .bottom-logo-footer {
+  background-image: url(images/footerlogo.png);
+  margin-top: -52px;
+  margin-left: 3px;
+  width: 51px;
+  height: 51px;
+  opacity: 0,5;
+  z-index: 3;
+ }
+
+ .text-footer {
+  margin: 24px 0 0 36px;
+  font-size: 29px;
+  margin-top: -42px;
+  margin-left: 65px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lucida Sans";
+  src: url("assets/fonts/LucidaSans.eot");
+  src: url("assets/fonts/LucidaSans.eot?#iefix") format("embedded-opentype"),
+  url("assets/fonts/LucidaSans.woff2") format("woff2"),
+  url("assets/fonts/LucidaSans.woff") format("woff"),
+  url("assets/fonts/LucidaSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  src: url('assets/fonts/SegoeWP.eot');
+  src: url('assets/fonts/SegoeWP.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/SegoeWP.woff2') format('woff2'),
+  url('assets/fonts/SegoeWP.woff') format('woff'),
+  url('assets/fonts/SegoeWP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('assets/fonts/LucidaSans-Italic.eot');
+  src: url('assets/fonts/LucidaSans-Italic.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/LucidaSans-Italic.woff2') format('woff2'),
+  url('assets/fonts/LucidaSans-Italic.woff') format('woff'),
+  url('assets/fonts/LucidaSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('assets/fonts/Asap-Regular.eot');
+  src: url('assets/fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/Asap-Regular.woff2') format('woff2'),
+  url('assets/fonts/Asap-Regular.woff') format('woff'),
+  url('assets/fonts/Asap-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  src: url('assets/fonts/SegoeWP-Light.eot');
+  src: url('assets/fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/SegoeWP-Light.woff2') format('woff2'),
+  url('assets/fonts/SegoeWP-Light.woff') format('woff'),
+  url('assets/fonts/SegoeWP-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans Caption';
+  src: url('assets/fonts/ptsans/PTSans-CaptionBold.eot');
+  src: url('assets/fonts/ptsans/PTSans-CaptionBold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-CaptionBold.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-CaptionBold.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-CaptionBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot');
+  src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-NarrowBold.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-NarrowBold.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-NarrowBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans Caption';
+  src: url('assets/fonts/ptsans/PTSans-Caption.eot');
+  src: url('assets/fonts/ptsans/PTSans-Caption.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-Caption.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-Caption.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-Caption.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('assets/fonts/ptsans/PTSans-BoldItalic.eot');
+  src: url('assets/fonts/ptsans/PTSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-BoldItalic.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-BoldItalic.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('assets/fonts/ptsans/PTSans-Bold.eot');
+  src: url('assets/fonts/ptsans/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-Bold.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-Bold.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('assets/fonts/ptsans/PTSans-Regular.eot');
+  src: url('assets/fonts/ptsans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-Regular.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-Regular.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url('assets/fonts/ptsans/PTSans-Narrow.eot');
+  src: url('assets/fonts/ptsans/PTSans-Narrow.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-Narrow.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-Narrow.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-Narrow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('assets/fonts/ptsans/PTSans-Italic.eot');
+  src: url('assets/fonts/ptsans/PTSans-Italic.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/ptsans/PTSans-Italic.woff2') format('woff2'),
+  url('assets/fonts/ptsans/PTSans-Italic.woff') format('woff'),
+  url('assets/fonts/ptsans/PTSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('assets/fonts/SegoeUI-BoldItalic.eot');
+  src: url('assets/fonts/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
+  url('assets/fonts/SegoeUI-BoldItalic.woff') format('woff'),
+  url('assets/fonts/SegoeUI-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('assets/fonts/SegoeUI-Bold.eot');
+  src: url('assets/fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+  url('assets/fonts/SegoeUI-Bold.woff') format('woff'),
+  url('assets/fonts/SegoeUI-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('assets/fonts/SegoeUI-Italic.eot');
+  src: url('assets/fonts/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/SegoeUI-Italic.woff2') format('woff2'),
+  url('assets/fonts/SegoeUI-Italic.woff') format('woff'),
+  url('assets/fonts/SegoeUI-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('assets/fonts/SegoeUI.eot');
+  src: url('assets/fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/SegoeUI.woff2') format('woff2'),
+  url('assets/fonts/SegoeUI.woff') format('woff'),
+  url('assets/fonts/SegoeUI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('assets/fonts/SegoeUI-Light.eot');
+  src: url('assets/fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/SegoeUI-Light.woff2') format('woff2'),
+  url('assets/fonts/SegoeUI-Light.woff') format('woff'),
+  url('assets/fonts/SegoeUI-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), local('OpenSans'),
+  url('assets/fonts/open-sans/opensans.woff2') format('woff2'),
+  url('assets/fonts/open-sans/opensans.woff') format('woff'),
+  url('assets/fonts/open-sans/opensans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 640px) {
+
+.wrapper {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url(images/background.png);
+  background-size: 640px;
+  height: 60px;
+}
+
+  .text-carousel {
+    display: none; 
+  }
+  
+  .size-context {
+    display: none; 
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;  
+  }
+  
+  .logo {
+    width: 350px;
+    display: contents;
+  }
+  
+  .top-image-header {
+    background-image: url(images/footerlogo.png);
+    width: 16%;
+    height: 36%;
+    border-radius: 10px;
+    z-index: 5;
+   }
+  
+   .bottom-image-header {
+    background-image: url(images/footerlogotop.png);
+    margin-top: -80px;
+    margin-left: 3px;
+    width: 79px;
+    height: 79px;
+    opacity: 0.5;
+    z-index: 3;
+   }
+    
+  .text-header {
+    margin: 24px 0 0 36px;
+    font-size: 41px;
+    margin-top: -56px;
+    margin-left: 100px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .logo_position {
+    padding-top: 28px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .align-flex-end {
+    align-items: flex-end;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .navbar__inner {
+    list-style-type: none;
+  }
+  
+  .logo__text {
+    display: block;
+    padding-top: 10px;
+    padding-left: 4px;
+    font-style: italic;
+    font-size: 41px;
+    font-family: "Lucida Sans", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  
+  .logo img {
+    width: 21px;
+    height: 19px;
+  }
+  
+  .navbar {
+    margin-top: 42px;
+  }
+  
+  .navbar__button {
+    padding-left: 10px;
+    background-color: #f5c506;
+    border-right: 1px solid #b99403;
+    box-shadow: -10px -10px 0 rgba(245, 197, 6, 0.27), -5px -5px 0 rgba(245, 197, 6, 0.27);
+  }
+  
+  .navbar__button:hover {
+    z-index: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(240, 255, 0, 1);
+    box-shadow: -10px -14px 0 rgba(240, 255, 0, 0.37), -5px -7px 0 rgba(240, 255, 0, 0.37);
+  }
+  
+  .navbar_button_transparent-border {
+    border-right-color: transparent;
+  }
+  
+  .navbar_button_margin-right {
+    margin-right: 5px;
+    padding-left: 11px;
+  }
+  
+  .navbar__text {
+    padding-left: 3px;
+    font-size: 17px;
+    line-height: 2.4;
+    font-family: "Segoe WP", sans-serif;
+    text-align: center;
+    color: #b99403;
+    letter-spacing: 0;
+  }
+  
+  .navbar__text_about-us-padding {
+    padding-left: 6px;
+  }
+  
+  .navbar__button_about-us-padding {
+    padding: 0 29px 0 21px;
+  }
+  
+  .navbar__button_services-padding {
+    padding: 0 21px 0 15px;
+  }
+  
+  .navbar__button_contact-padding {
+    padding: 0 22px 0 16px;
+  }
+  
+  .navbar ul li a{
+    font-size: 17px;
+    letter-spacing: 0px;
+    border-spacing: 0;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+  
+  .about {
+    display: flex;
+    border-spacing: 0;
+    background-image: url(images/Abaut.png);
+    width: 21px;
+    height: 19px;
+    z-index: 20;
+  }
+  
+  .service {
+    width: 21px;
+    height: 20px;
+    z-index: 20;
+  }
+  
+  .contact {
+    width: 26px;
+    height: 19px;
+    z-index: 20;
+  }
+  
+  .carousel {
+    display: flex;
+    margin: auto;
+    width: 1300px;
+    height: 320px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    box-sizing: border-box;
+    width: 32px;
+    height: 56px;
+    padding-top: 19px;
+    padding-left: 8px;
+    background-color: #c7a60d;
+  }
+  
+  .context {
+    display: flex;
+    position: relative;
+    background-size: 100%;
+    align-items: flex-start;
+  }
+  
+  .video-poster {
+    width: 745px;
+  }
+  
+  .video,
+  .navigation {
+    position: absolute;
+    left: 385px;
+    top: 127px;
+  }
+  
+  .button-center {
+    display: block;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #f5c506;
+    opacity: 0.71;
+  }
+  
+  .image-play {
+    margin-left: 26px;
+    margin-top: 16px;
+  }
+  
+  .button-center a {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    background-color: #f5c506;
+  }
+  
+  .bottom-row {
+    top: 100px;
+    left: 10px;
+  }
+  
+  .button-play {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 286px;
+    left: 165px;
+    border: 0;
+    background-color: #f5c506;
+    z-index: 3;
+  }
+  
+  .play {
+    margin-left: 9px;
+    margin-top: 5px;
+  }
+  
+  .play-time {
+    position: absolute;
+    top: 276px;
+    left: 212px;
+  }
+  
+  .scroll-bar {
+    position: absolute;
+    top: 287px;
+    left: 210px;
+  }
+  
+  .sound {
+    position: absolute;
+    top: 286px;
+    left: 634px;
+  }
+  
+  .text-carousel {
+    font-size: 63px;
+    white-space: nowrap;
+    margin-right: 123px;
+    letter-spacing: 1px;
+    color: #f5c506;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+    min-height: 10em;
+    position: relative;
+    margin-top: auto;
+  }
+  
+  .text-carousel p {
+    transform: translate(0, 140%);
+    
+  }
+  
+  .carousel-controls2 {
+    top: 302px;
+    right: 321px;
+    box-sizing: border-box;
+    width: 32px;
+    height: 56px;
+    padding-top: 19px;
+    padding-left: 11px;
+    background-color: #c7a60d;
+    cursor: pointer;
+   }
+  
+  .offers-section {
+    padding: 100px 0;
+    background-image: url(images/OffersFon.png);
+    padding: 100px 0;
+    background-size: 100%;
+  }
+  
+  .offers-section div {
+    display: flex;
+    width: 1020px;
+    margin: auto;
+    position: relative;
+    margin-bottom: inherit;
+    justify-content: space-around;
+  }
+  
+  .offers-section-all {
+    flex-direction: row;
+    vertical-align: middle;
+  }
+  
+  .offers-section div a {
+    display: grid;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 5%;
+    justify-items: center;
+  }
+  
+  .offers-section div a img {
+    margin-bottom: 18px;
+  }
+  
+  .wrapper-context {
+    background-image: url(images/BackgroundContext.png);
+    background-repeat: round;
+    background-size: 100%;
+    padding: 100px 0;
+  }
+  
+  .wrapper-context-size {
+    width: 1020px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .heading {
+    width: 750px;
+    height: 78px;
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    margin-top: -23px;
+  }
+  
+  .block-text div p {
+    background-image: url(images/BackgroundText.png);
+    display: inline-block;
+    width: 305px;
+    height: 220px;
+  }
+  
+  .block-text {
+    width: 279px;
+    height: 200px;
+    padding: 22px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    background-clip: border-box;
+    background-color: #ec9e03;
+    display: inline-block;
+  }
+  
+  .image-plus {
+    position: absolute;
+    top: 275px;
+    left: 297px;
+  }
+  
+  .video-film-poster {
+    display: inline;
+    height: 244px;
+    width: auto;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -36px;
+  }
+  
+  .button-center-info {
+    position: absolute;
+    top: 171px;
+    left: 459px;
+    width: 67px;
+    height: 67px;
+    border: 0;
+    border-radius: 50%;
+    border: 0;
+    background-color: #f5c506;
+    opacity: 0.71;
+  }
+  
+  .image-play-info {
+    position: absolute;
+    top: 17px;
+    left: 27px;
+  }
+  
+  .background-twitter {
+    position: absolute;
+    top: 78px;
+    left: 711px;
+    width: 276px;
+    height: 200px;
+    padding: 22px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    background-clip: border-box;
+    background-color: #ec9e03;
+    margin-left: -12px;
+  }
+  
+  .image-twitter {
+    display: inline-block;
+    width: 163px;
+    height: 133px;
+    position: absolute;
+    top: 58px;
+    left: 86px;
+  }
+  
+  .number {
+    float: inline-end;
+    top: 10px;
+    margin-top: -13px;
+    margin-left: -15px;
+  }
+  
+  .image-plus-twitter {
+    position: absolute;
+    top: 197px;
+    left: 295px;
+  }
+  
+  .data {
+    width: 113px;
+    height: 85px;
+    background-color: #ddb101
+  }
+  
+  .day-number {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .month {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";  
+    text-align: center;
+    margin-top: -2px;
+    padding-bottom: 8px;
+  }
+  
+  .context-scroll-bar {
+    position: absolute;
+    top: 467px;
+    margin-left: 69px;
+  }
+  
+  .context-scroll-slider {
+    position: absolute;
+    top: 467px;
+    margin-left: 299px;
+  }
+  
+  .context-information {
+    background-image: url(images/BackgroundInfo.png);
+    background-repeat: round;
+    background-size: 100%;
+    padding: 100px 0;
+  }
+  
+  .size-context-information {
+    width: 1020px;
+    margin: auto;
+    position: relative;
+    padding-top: 47px;
+  }
+  
+  .invitation {
+    text-decoration: none;
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    background-color: #f5c506;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+  }
+  
+  .images-cascade a {
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    top: 100px;
+  }
+  
+  .images-cascade a p {
+    position: absolute;
+    top: 48px;
+    left: 5px;
+  }
+  
+  .information-heading {
+    width: 1020px;
+    height: 36px;
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .image-cascade {
+    padding-bottom: 105px;
+  }
+  
+  .image-PC {
+    padding-top: 58px;
+    padding-right: 24px;
+    padding-left: 19px;
+  }
+  
+  .image-table {
+    padding-right: 24px;
+    padding-bottom: 40px;
+  }
+  
+  .image-mobile {
+    padding-bottom: 40px;
+    padding-right: 110px;
+  }
+  
+  .list-text {
+    list-style-image: url(images/DiskList.png);
+    display: inline-block;
+   }
+  
+  .list-text li {
+    width: 334px;
+    height: 45px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    -moz-hyphens: auto;
+    padding-top: 12px;
+  }
+  
+  .size-context-footer {
+    width: 1020px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .footer {
+    padding: 100px 0;
+    background-size: 100%;
+    background-color: #4c4c4c;
+    height:64px;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+  }
+  
+  .size-context-footer {
+    width: 1020px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .top-logo-footer {
+    background-image: url(images/footerlogotop.png);
+    width: 54px;
+    height: 54px;
+    border-radius: 9px;
+    z-index: 5;
+   }
+  
+   .bottom-logo-footer {
+    background-image: url(images/footerlogo.png);
+    margin-top: -52px;
+    margin-left: 3px;
+    width: 51px;
+    height: 51px;
+    opacity: 0,5;
+    z-index: 3;
+   }
+  
+   .text-footer {
+    margin: 24px 0 0 36px;
+    font-size: 29px;
+    margin-top: -42px;
+    margin-left: 65px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+   }
