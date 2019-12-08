@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img class="header-avatar" alt="" src="/assets/person.JPG">
+      <div class="header-wrapper">
+        <div class="header-name">Roman Goncharov</div>
+        <ul  class="header-list">
+          <li><a class="github" href="https://github.com/RomaSRS/">GitHub</a></li>
+          <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100002427159955">FaceBook</a></li>
+          <li><a class="skype" href="live:36eb6584d3d45c73">Skype</a></li>
+          <li><a class="telegram" href="@RomanSRS">Telegram</a></li>
+          <li><a class="discord" href="https://discordapp.com/channels/618148975958163644/618148976058826840">Discord</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="education">
+        <button id="education_btn" class="education-btn">Education</button>
+        <div id="education_panel" class="panel">
+          <ul class="education_list">
+            <li>School<br><span class="education_years">1989 - 2001</span></li>
+            <li>Belarusian National Technical University<br><span class="education_years">2001 - 2006</span></li>
+            <li>Rolling-Scopes-School Courses<br><span class="education_years">2019 ...</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="proj">
+        <div class="proj-title">
+          Projects
+        </div>
+        <div id="swipezone" class="slider_wrap">
+          <div class="proj-slider fade">
+            <div class="proj-slider-descr">
+              <div class="proj-slider-descr_title">
+                Repair Project <button class="sw_button" id="sw_btn_1">Show<br>description</button>
+              </div>
+              <div class="proj-slider-descr_text">
+                <li>Responsive</li>
+                <li>Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge</li>
+                <li>Using Flexbox</li>
+                <li>Desktop, mobile</li>
+              </div>
+              <div class="proj-slider-descr_mob" id="descr_1">
+                <li>Responsive</li>
+                <li>Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge</li>
+                <li>Using Flexbox</li>
+                <li>Desktop, mobile</li>
+              </div>
+              <div class="proj-slider-descr-tap">Tap image to see more >>></div>
+            </div>
+            <button class="proj-slider_btn" id="re_btn"><img src="/assets/repair-screen.png"></button>
+          </div>
+          <div class="proj-slider fade">
+            <div class="proj-slider-descr">
+              <div class="proj-slider-descr_title">
+                Theyalow Project <button class="sw_button" id="sw_btn_2">Show<br>description</button>
+              </div>
+              <div class="proj-slider-descr_text">
+                <li>Pixel Perfect</li>
+                <li>Browser Support: Google Chrome, Mozilla Firefox</li>
+                <li>Interactive navbar, button and link</li>
+                <li>Desktop, mobile</li>
+              </div>
+              <div class="proj-slider-descr_mob" id="descr_2">
+                <li>Pixel Perfect</li>
+                <li>Browser Support: Google Chrome, Mozilla Firefox</li>
+                <li>Interactive navbar, button and link</li>
+                <li>Desktop, mobile</li>
+              </div>
+              <div class="proj-slider-descr-tap">Tap image to see more >>></div>
+            </div>
+            <button class="proj-slider_btn" id="th_btn"><img src="/assets/theyalow-screen.png"></button>
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="proj-prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="proj-next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </section>
+      <footer class="footer">Portfolio - 2019</footer>
+      
+    </main>
+  </div>
+  <div class="iframe-wrap" id="iwrap">
+    <iframe class="iframe" id="iframe" frameborder="0"></iframe>
+    <button class="iframe-button" id="back-button">Back</button>
+    <button class="iframe-button" id="mode-button">Desktop</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
