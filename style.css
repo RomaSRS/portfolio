@@ -60,8 +60,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .head-wrapper {
-    margin: 30px 0 0 0;
+  .header-wrapper {
+    margin: 0 0 0 0;
   }
 }
 
@@ -70,12 +70,33 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  .header-name {
+    font-size: 35px;
+    font-weight: bold;
+    width: 330px;
+    text-align: center;
+    padding-left: 15px;
+  }
+}
+
 .header-list {
   font-size: 30px;
   line-height: 36px;
   list-style: none;
   display: flex;
   margin: 60px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header-list {
+    font-size: 30px;
+    line-height: 36px;
+    list-style: none;
+    display: flex;
+    margin: 60px 0 0 0;
+    padding-right: 40px;
+  }
 }
 
 .github {
@@ -106,6 +127,16 @@ body {
   width: 45px;
   height: 45px;
   margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-list li a {
+    color: #000;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    margin: 6px;
+  }
 }
 
 .header-list li a:hover,
