@@ -406,7 +406,8 @@ body {
   right: 0;
 }
 
-.proj-prev:hover, .proj-next:hover {
+.proj-prev:hover, 
+.proj-next:hover {
   background-color: rgb(156, 153, 153);
 }
 
