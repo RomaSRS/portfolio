@@ -5,6 +5,7 @@
 
 body {
   position: relative;
+  overflow-x: hidden;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -28,6 +29,7 @@ body {
           justify-content: flex-start;
   border-top: 2px solid #000000;
   border-bottom: 3px solid #000000;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -305,7 +307,7 @@ body {
 }
 
 .proj-slider-descr_text {
-  padding-left: 50px;
+  padding-left: 35px;
   font-size: 20px;
   font-family: 'FuturaBookC';
 
